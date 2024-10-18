@@ -17,7 +17,7 @@ func calculate(a float64, b float64, operator string) float64 {
 		if b != 0 {
 			return a / b
 		} else {
-			fmt.Println("Error: Division by zero")
+			fmt.Println("ERROR: Division by zero")
 			return math.NaN()
 		}
 	case "**":
